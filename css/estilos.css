@@ -25,11 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .texto-blanco {
     font-weight: 700;
-    color: #c2c2c2;
+    color: #fff;
 }
 
 .texto-negro {
-	color: #c2c2c2;
+	color: #fff;
 }
 
 
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
-    color: #c2c2c2;
+    color: #fff;
     transition: .5s ease;
 }
 
@@ -97,7 +97,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
     background: url('../media/loki-en-thor-2_2048x1536_xtrafondos.com.jpg');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     
 }
 
@@ -168,13 +170,11 @@ h1, h2, h3, h4, h5, h6 {
 .productos article:nth-child(2) {
     background-image: url('../media/lokipresident.png');
     background-size: cover;
-    opacity: .94;
 }
 
 .productos article:nth-child(3) {
     background-image: url('../media/lokiprisionero.jpg');
     background-size: cover;
-    opacity: .94;
 }
 
 .productos .informacion-producto {
@@ -197,13 +197,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .productos .descripcion {
     font-size: 19px;
+    text-align: center;
 }
 
 .productos .precio {
     font-size: 23px;
 }
 p.precio {
-    color: #c2c2c2;
+    color: #fff;
 }
 
 
@@ -302,15 +303,19 @@ p.precio {
     }
     .modelo {
         font-size: 35px;
+        text-align: center;
     }
     .precio {
         font-size: 23px;
+        text-align: center;
     }
     .footer h2 {
         font-size: 15px;
+        text-align: center;
     }
     .footer .redes-sociales {
         font-size: 30px;
+        text-align: center;
     }
     .footer .redes-sociales a {
         width: 60px;
